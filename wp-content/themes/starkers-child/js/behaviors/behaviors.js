@@ -51,7 +51,8 @@ DLN.Behaviors.equalHeights = function(container){
 
 DLN.Behaviors.flexslider = function(container){
 	container.flexslider({
-			controlNav: false
+			controlNav: false,
+			directionNav: false
 	});
 }
 

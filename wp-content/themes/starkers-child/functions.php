@@ -29,7 +29,7 @@ function starkers_script_enqueuer() {
         wp_register_script( 'flexslider', get_stylesheet_directory_uri().'/bower_components/flexslider/jquery.flexslider-min.js', array( 'jquery' ),'' , true );
         wp_enqueue_script( 'flexslider' );        
 
-        wp_register_script( 'behaviors', get_stylesheet_directory_uri().'/js/behaviors/behaviors.js', array( 'jquery' ),'' , true );
+        wp_register_script( 'behaviors', get_stylesheet_directory_uri().'/js/behaviors/behaviors.min.js', array( 'jquery' ),'' , true );
         wp_enqueue_script( 'behaviors' );
 }
 
